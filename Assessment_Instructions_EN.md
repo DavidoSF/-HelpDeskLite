@@ -1,4 +1,4 @@
-# ESTIAM E5 M5 assessment — HelpDesk Lite
+# ESTIAM E5 M5 assessment - HelpDesk Lite
 
 HelpDesk Lite tracks campus IT incidents such as a broken projector or a failed Wi-Fi connection. You will complete ticket validation, status and priority rules, Room repository operations, and the UI save workflow. You will also write an Espresso test that proves a ticket appears with the priority selected on the form.
 
@@ -9,7 +9,7 @@ HelpDesk Lite tracks campus IT incidents such as a broken projector or a failed 
 - Do not edit the supplied tests or the test fixture to bypass the checks. The only test file you should modify is `TicketJourneyTest.kt`.
 - Use the provided Gradle wrapper, Java 17 and Android SDK Platform 35. The README gives setup and test commands. Keep the dependencies and project configuration as supplied.
 
-## Exercise 1 — Ticket validation (15 min, 4 points)
+## Exercise 1 - Ticket validation (15 min, 4 points)
 
 Edit `app/src/main/java/fr/estiam/helpdesklite/model/TicketValidation.kt`.
 
@@ -19,7 +19,7 @@ Edit `app/src/main/java/fr/estiam/helpdesklite/model/TicketValidation.kt`.
 
 Run `TicketValidationTest` as a local JUnit test.
 
-## Exercise 2 — Priority and status rules (20 min, 4 points)
+## Exercise 2 - Priority and status rules (20 min, 4 points)
 
 Edit `app/src/main/java/fr/estiam/helpdesklite/model/TicketRules.kt`.
 
@@ -28,7 +28,7 @@ Edit `app/src/main/java/fr/estiam/helpdesklite/model/TicketRules.kt`.
 
 Run `TicketRulesTest` as a local JUnit test.
 
-## Exercise 3 — Room repository (20 min, 5 points)
+## Exercise 3 - Room repository (20 min, 5 points)
 
 Edit `app/src/main/java/fr/estiam/helpdesklite/data/local/RoomTicketRepository.kt`. Insertion, the database, the DAO, and row conversion are already supplied.
 
@@ -38,7 +38,7 @@ Edit `app/src/main/java/fr/estiam/helpdesklite/data/local/RoomTicketRepository.k
 
 Run `RoomTicketRepositoryTest` on the emulator. It supplies a small transition policy for its fixture so that you can test repository mechanics independently of Exercise 2.
 
-## Exercise 4 — Connect the form to persistence (20 min, 4 points)
+## Exercise 4 - Connect the form to persistence (20 min, 4 points)
 
 Edit `app/src/main/java/fr/estiam/helpdesklite/ui/CreateTicketActivity.kt`, in the existing coroutine inside `saveTicket`. The form, priority selector, ticket creation, validation messages and exception handling are provided.
 
@@ -48,7 +48,7 @@ Edit `app/src/main/java/fr/estiam/helpdesklite/ui/CreateTicketActivity.kt`, in t
 
 Run `CreateTicketUiTest` on the emulator.
 
-## Exercise 5 — Write an Espresso test (15 min, 3 points)
+## Exercise 5 - Write an Espresso test (15 min, 3 points)
 
 Edit `app/src/androidTest/java/fr/estiam/helpdesklite/TicketJourneyTest.kt`. Remove `@Ignore` and retain the fixture rule and an executable JUnit 4 test.
 
